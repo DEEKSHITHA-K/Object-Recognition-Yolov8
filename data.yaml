@@ -1,0 +1,12 @@
+
+# YOLO dataset config template
+# Update 'path', 'train', 'val', and 'names' for your dataset.
+
+path: ./dataset          # root of dataset
+train: images/train      # images
+val: images/val
+# test: images/test      # optional
+
+names:
+  0: class0
+  1: class1
